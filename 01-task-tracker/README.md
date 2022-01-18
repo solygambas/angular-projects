@@ -12,5 +12,7 @@ A simple to-do list app.
 - understanding modular structure, defining global styles and using interpolations.
 - generating components, handling input data and inline styles.
 - managing events with Output and EventEmitter.
+- mocking tasks, creating a Task interface and looping over tasks.
+- displaying icons with @fortawesome/angular-fontawesome.
 
 Based on [Angular Crash Course](https://www.youtube.com/watch?v=3dHNOWTI7H8) by Brad Traversy (2021).
