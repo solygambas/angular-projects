@@ -14,5 +14,6 @@ A simple to-do list app.
 - managing events with Output and EventEmitter.
 - mocking tasks, creating a Task interface and looping over tasks.
 - displaying icons with @fortawesome/angular-fontawesome.
+- creating a Task service, initiating and subscribing to Observable.
 
 Based on [Angular Crash Course](https://www.youtube.com/watch?v=3dHNOWTI7H8) by Brad Traversy (2021).
