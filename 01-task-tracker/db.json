@@ -21,7 +21,7 @@
     {
       "text": "Feed the dog",
       "day": "May 8th at 12:30pm",
-      "reminder": true,
+      "reminder": false,
       "id": 4
     }
   ]

@@ -18,5 +18,6 @@ A simple to-do list app.
 - setting up JSON Server as a fake back-end.
 - creating, reading, updating and deleting data with HttpClientModule.
 - handling user inputs with FormsModule.
+- toggling button and form with Observable Subject.
 
 Based on [Angular Crash Course](https://www.youtube.com/watch?v=3dHNOWTI7H8) by Brad Traversy (2021).
