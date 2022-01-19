@@ -8,11 +8,11 @@ A simple to-do list app.
 
 [See 01-task-tracker folder](https://github.com/solygambas/angular-projects/tree/main/01-task-tracker)
 
-<!-- <p align="center">
+<p align="center">
     <a href="https://github.com/solygambas/angular-projects/tree/main/01-task-tracker">
         <img src="01-task-tracker/screenshot.png">
     </a>
-</p> -->
+</p>
 
 ### Features
 
@@ -24,6 +24,9 @@ A simple to-do list app.
 - displaying icons with @fortawesome/angular-fontawesome.
 - creating a Task service, initiating and subscribing to Observable.
 - setting up JSON Server as a fake back-end.
-- fetching, updating and deleting data.
+- creating, reading, updating and deleting data with HttpClientModule.
+- handling user inputs with FormsModule.
+- toggling button and form with Observable Subject.
+- defining routes with RouterModule.
 
 Based on [Angular Crash Course](https://www.youtube.com/watch?v=3dHNOWTI7H8) by Brad Traversy (2021).

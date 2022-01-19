@@ -2,9 +2,9 @@
 
 A simple to-do list app.
 
-<!-- <p align="center">
+<p align="center">
         <img src="screenshot.png">
-</p> -->
+</p>
 
 ## Features
 
@@ -19,5 +19,6 @@ A simple to-do list app.
 - creating, reading, updating and deleting data with HttpClientModule.
 - handling user inputs with FormsModule.
 - toggling button and form with Observable Subject.
+- defining routes with RouterModule.
 
 Based on [Angular Crash Course](https://www.youtube.com/watch?v=3dHNOWTI7H8) by Brad Traversy (2021).
