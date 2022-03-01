@@ -1,5 +1,7 @@
 // npm i -g typescript
 // tsc sandbox.tsb -w
+// tsc --init
+// tsc
 
 // const character = "luigi";
 
@@ -105,13 +107,15 @@
 // https://mariusschulz.com/blog/the-unknown-type-in-typescript
 // The unknown type is only assignable to the any type and the unknown type itself.
 // https://www.tutorialsteacher.com/typescript/typescript-never
-let age: any = 25;
-age = true;
-age = "hello";
-age = { name: "luigi" };
-let mixed: any[] = [];
-mixed.push(5);
-mixed.push("mario");
-mixed.push(false);
-let ninja: { name: any; age: any };
-ninja = { name: "yoshi", age: 25 };
+// let age: any = 25;
+// age = true;
+// age = "hello";
+// age = { name: "luigi" };
+// let mixed: any[] = [];
+// mixed.push(5);
+// mixed.push("mario");
+// mixed.push(false);
+// let ninja: { name: any; age: any };
+// ninja = { name: "yoshi", age: 25 };
+
+console.log("test");
