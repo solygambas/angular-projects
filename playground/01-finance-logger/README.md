@@ -12,6 +12,8 @@ A small project to learn TypeScript.
 - setting up a better workflow with tsc --init.
 - dealing with functions, using type aliases and function signatures.
 - working with the DOM.
-- creating classes.
+- creating classes and adding access modifiers: private, public and readonly.
+- using the ES6 module system.
+- implementing interfaces with classes.
 
 Based on [TypeScript Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI) by Shaun Pelling - The Net Ninja (2020).

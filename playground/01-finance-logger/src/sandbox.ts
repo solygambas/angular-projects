@@ -158,20 +158,45 @@
 // };
 
 // // function signatures
-let greet: (a: string, b: string) => void;
-greet = (name: string, greeting: string) => {
-  console.log(`${name} says ${greeting}`);
+// let greet: (a: string, b: string) => void;
+// greet = (name: string, greeting: string) => {
+//   console.log(`${name} says ${greeting}`);
+// };
+// let calc: (a: number, b: number, c: string) => number;
+// calc = (numOne: number, numTwo: number, action: string) => {
+//   if (action === "add") {
+//     return numOne + numTwo;
+//   } else {
+//     return numOne - numTwo;
+//   }
+// };
+// type person = { name: string; age: number };
+// let logDetails: (obj: person) => void;
+// logDetails = (ninja: person) => {
+//   console.log(`${ninja.name} is ${ninja.age} years old`);
+// };
+
+// interfaces
+interface IsPerson {
+  name: string;
+  age: number;
+  speak(a: string): void;
+  spend(a: number): number;
+}
+
+const me: IsPerson = {
+  name: "shaun",
+  age: 30,
+  speak(text: string): void {
+    console.log(text);
+  },
+  spend(amount: number): number {
+    console.log("I spent", amount);
+    return amount;
+  },
 };
-let calc: (a: number, b: number, c: string) => number;
-calc = (numOne: number, numTwo: number, action: string) => {
-  if (action === "add") {
-    return numOne + numTwo;
-  } else {
-    return numOne - numTwo;
-  }
+
+const greetPerson = (person: IsPerson) => {
+  console.log("hello", person.name);
 };
-type person = { name: string; age: number };
-let logDetails: (obj: person) => void;
-logDetails = (ninja: person) => {
-  console.log(`${ninja.name} is ${ninja.age} years old`);
-};
+greetPerson(me);
