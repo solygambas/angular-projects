@@ -177,26 +177,98 @@
 // };
 
 // interfaces
-interface IsPerson {
-  name: string;
-  age: number;
-  speak(a: string): void;
-  spend(a: number): number;
-}
+// interface IsPerson {
+//   name: string;
+//   age: number;
+//   speak(a: string): void;
+//   spend(a: number): number;
+// }
 
-const me: IsPerson = {
-  name: "shaun",
-  age: 30,
-  speak(text: string): void {
-    console.log(text);
-  },
-  spend(amount: number): number {
-    console.log("I spent", amount);
-    return amount;
-  },
-};
+// const me: IsPerson = {
+//   name: "shaun",
+//   age: 30,
+//   speak(text: string): void {
+//     console.log(text);
+//   },
+//   spend(amount: number): number {
+//     console.log("I spent", amount);
+//     return amount;
+//   },
+// };
 
-const greetPerson = (person: IsPerson) => {
-  console.log("hello", person.name);
-};
-greetPerson(me);
+// const greetPerson = (person: IsPerson) => {
+//   console.log("hello", person.name);
+// };
+// greetPerson(me);
+
+// GENERICS
+// const addUID = (obj: object) => { // will not remember object properties
+// const addUID = <T>(obj: T) => { // wild card for any type, will remember object properties
+// const addUID = <T extends object>(obj: T) => {
+// const addUID = <T extends { name: string; age: number }>(obj: T) => {
+//   // will remember object properties
+//   let uid = Math.floor(Math.random() * 100);
+//   return { ...obj, uid };
+// };
+
+// let docOne = addUID({ name: "yoshi", age: 30 });
+// // let docTwo = addUID("hello")
+// console.log(docOne.name);
+
+// // with interfaces
+// interface Ressource<T> {
+//   uid: number;
+//   ressourceName: string;
+//   data: T; // dynamic type
+// }
+
+// const docThree: Ressource<string> = {
+//   // give the type as argument
+//   uid: 1,
+//   ressourceName: "person",
+//   data: "shaun",
+// };
+
+// const docFour: Ressource<string[]> = {
+//   // give the type as argument
+//   uid: 1,
+//   ressourceName: "person",
+//   data: ["shaun"],
+// };
+
+// ENUMS
+// enum RessourceType {
+//   BOOK,
+//   AUTHOR,
+//   FILM,
+//   DIRECTOR,
+//   PERSON,
+// }
+
+// interface Ressource<T> {
+//   uid: number;
+//   ressourceName: RessourceType;
+//   data: T; // dynamic type
+// }
+
+// const docThree: Ressource<string> = {
+//   // give the type as argument
+//   uid: 1,
+//   ressourceName: RessourceType.AUTHOR,
+//   data: "shaun",
+// };
+
+// const docFour: Ressource<string[]> = {
+//   // give the type as argument
+//   uid: 1,
+//   ressourceName: RessourceType.PERSON,
+//   data: ["shaun"],
+// };
+
+// TUPLES
+let arr = ["ryu", 25, true];
+arr[0] = false;
+arr[1] = "yoshi";
+arr = [30, false, "yoshi"];
+
+let tup: [string, number, boolean] = ["ryu", 25, true]; // fixed types once defined

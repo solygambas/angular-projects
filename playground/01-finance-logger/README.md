@@ -2,6 +2,10 @@
 
 A small project to learn TypeScript.
 
+<p align="center">
+        <img src="screenshot.png">
+</p>
+
 ## Features
 
 - compiling TypeScript into JavaScript.
