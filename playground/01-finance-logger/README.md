@@ -10,5 +10,7 @@ A small project to learn TypeScript.
 - defining explicit types.
 - creating dynamic types with 'any'.
 - setting up a better workflow with tsc --init.
+- dealing with functions, using type aliases and function signatures.
+- working with the DOM.
 
 Based on [TypeScript Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI) by Shaun Pelling - The Net Ninja (2020).

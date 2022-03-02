@@ -117,5 +117,61 @@
 // mixed.push(false);
 // let ninja: { name: any; age: any };
 // ninja = { name: "yoshi", age: 25 };
+// console.log("test");
 
-console.log("test");
+// FUNCTIONS
+// let greet: Function;
+// // greet = 'hello'
+
+// greet = () => {
+//   console.log("hello, world");
+// };
+
+// const add = (a: number, b: number = 10, c?: number | string): void => {
+//   console.log(a + b);
+//   console.log(c); // undefined
+// };
+
+// add(5, 10);
+
+// // const minus = (a: number, b: number) => {
+// //   return a + b;
+// // };
+// const minus = (a: number, b: number): number => {
+//   return a + b;
+// };
+
+// let result = minus(10, 7);
+// // result = 'something else'
+
+// // type aliases
+// type StringOrNum = string | number;
+// type objWithName = { name: string; uid: StringOrNum };
+
+// const add = (a: number, b: number = 10, c?: StringOrNum): void => {
+//   console.log(a + b);
+//   console.log(c); // undefined
+// };
+
+// const greet = (user: objWithName) => {
+//   console.log(`${user.name} says hello`);
+// };
+
+// // function signatures
+let greet: (a: string, b: string) => void;
+greet = (name: string, greeting: string) => {
+  console.log(`${name} says ${greeting}`);
+};
+let calc: (a: number, b: number, c: string) => number;
+calc = (numOne: number, numTwo: number, action: string) => {
+  if (action === "add") {
+    return numOne + numTwo;
+  } else {
+    return numOne - numTwo;
+  }
+};
+type person = { name: string; age: number };
+let logDetails: (obj: person) => void;
+logDetails = (ninja: person) => {
+  console.log(`${ninja.name} is ${ninja.age} years old`);
+};
