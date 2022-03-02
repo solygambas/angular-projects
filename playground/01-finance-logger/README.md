@@ -15,5 +15,7 @@ A small project to learn TypeScript.
 - creating classes and adding access modifiers: private, public and readonly.
 - using the ES6 module system.
 - implementing interfaces with classes.
+- rendering new list item templates to the DOM.
+- discovering generics, enums and tuples.
 
 Based on [TypeScript Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI) by Shaun Pelling - The Net Ninja (2020).
