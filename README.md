@@ -6,10 +6,10 @@ A small project to understand Angular core concepts.
 
 A simple to-do list app.
 
-[See 01-task-tracker folder](https://github.com/solygambas/angular-projects/tree/main/01-task-tracker)
+[See 01-task-tracker folder](01-task-tracker)
 
 <p align="center">
-    <a href="https://github.com/solygambas/angular-projects/tree/main/01-task-tracker">
+    <a href="01-task-tracker">
         <img src="01-task-tracker/screenshot.png">
     </a>
 </p>
