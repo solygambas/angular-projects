@@ -1,0 +1,16 @@
+{
+  "name": "01-quick-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js-only.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc using-ts.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}
