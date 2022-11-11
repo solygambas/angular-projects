@@ -1,0 +1,25 @@
+{
+  "name": "05-node-express-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/app.js",
+    "watch": "tsc -w",
+    "init": "tsc --init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.4"
+  }
+}

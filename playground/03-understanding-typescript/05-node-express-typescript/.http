@@ -1,0 +1,21 @@
+### GET
+GET http:/localhost:3000/todos/ HTTP/1.1
+
+### POST
+POST http:/localhost:3000/todos/ HTTP/1.1
+content-type: application/json
+
+{
+  "text": "Finish the course"
+}
+
+### PATCH
+PATCH http:/localhost:3000/todos/0.8577534497461119 HTTP/1.1
+content-type: application/json
+
+{
+  "text": "Updated text"
+}
+
+### DELETE
+DELETE http:/localhost:3000/todos/0.8577534497461119 HTTP/1.1
