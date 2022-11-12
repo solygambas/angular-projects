@@ -37,9 +37,13 @@ Some small projects to learn all about core types, generics and combine TypeScri
 
 ### Select & Share a Place App
 
+<p align="center">
+        <img src="06-select-share-place/screenshot.png" style="width:528px;max-width: 100%;">
+</p>
+
 - setting up Webpack 5 with TypeScript.
 - getting user input.
-- setting up an API key.
+- setting up a Mapbox API token.
 - using Axios to fetch coordinates for an entered address.
 - rendering a map.
 
