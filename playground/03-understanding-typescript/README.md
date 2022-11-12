@@ -12,6 +12,30 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - utilizing function types, unknown and never types.
 - configuring the TypeScript compiler.
 
+# Classes and Interfaces
+
+- creating a class and compiling to JavaScript.
+
+### Third party libraries and TypeScript
+
+- setting up Vite with TypeScript.
+- using JavaScript libraries like Lodash with TypeScript.
+- using `declare` as a "last resort".
+- transforming external data to some instance of class with class-transformer.
+- validating data with class-validator.
+
+### Select & Share a Place App
+
+<p align="center">
+        <img src="06-select-share-place/screenshot.png" style="width:528px;max-width: 100%;">
+</p>
+
+- setting up Webpack 5 with TypeScript.
+- getting user input.
+- setting up a Mapbox API token.
+- using Axios to fetch coordinates for an entered address.
+- rendering a map.
+
 ### React and TypeScript
 
 <p align="center">
@@ -34,25 +58,5 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - adding middleware and types on requests.
 - working with controllers and parsing request bodies.
 - building a basic REST API with CRUD operations.
-
-### Select & Share a Place App
-
-<p align="center">
-        <img src="06-select-share-place/screenshot.png" style="width:528px;max-width: 100%;">
-</p>
-
-- setting up Webpack 5 with TypeScript.
-- getting user input.
-- setting up a Mapbox API token.
-- using Axios to fetch coordinates for an entered address.
-- rendering a map.
-
-### Third party libraries and TypeScript
-
-- setting up Vite with TypeScript.
-- using JavaScript libraries like Lodash with TypeScript.
-- using `declare` as a "last resort".
-- transforming external data to some instance of class with class-transformer.
-- validating data with class-validator.
 
 Based on [Understanding TypeScript](https://www.udemy.com/course/understanding-typescript/) by Maximilian Schwarzmüller (2021).
