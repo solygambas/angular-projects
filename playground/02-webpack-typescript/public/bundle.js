@@ -1,1 +1,96 @@
-!function(Q){var n={};function e(U){if(n[U])return n[U].exports;var c=n[U]={i:U,l:!1,exports:{}};return Q[U].call(c.exports,c,c.exports,e),c.l=!0,c.exports}e.m=Q,e.c=n,e.d=function(Q,n,U){e.o(Q,n)||Object.defineProperty(Q,n,{enumerable:!0,get:U})},e.r=function(Q){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(Q,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(Q,"__esModule",{value:!0})},e.t=function(Q,n){if(1&n&&(Q=e(Q)),8&n)return Q;if(4&n&&"object"==typeof Q&&Q&&Q.__esModule)return Q;var U=Object.create(null);if(e.r(U),Object.defineProperty(U,"default",{enumerable:!0,value:Q}),2&n&&"string"!=typeof Q)for(var c in Q)e.d(U,c,function(n){return Q[n]}.bind(null,c));return U},e.n=function(Q){var n=Q&&Q.__esModule?function(){return Q.default}:function(){return Q};return e.d(n,"a",n),n},e.o=function(Q,n){return Object.prototype.hasOwnProperty.call(Q,n)},e.p="public",e(e.s=0)}([function(module,__webpack_exports__,__webpack_require__){"use strict";eval('// ESM COMPAT FLAG\n__webpack_require__.r(__webpack_exports__);\n\n// CONCATENATED MODULE: ./src/forms.ts\nconst formData = (form) => {\r\n    const inputs = form.querySelectorAll("input");\r\n    let values = {};\r\n    inputs.forEach((input) => {\r\n        values[input.id] = input.value;\r\n    });\r\n    return values;\r\n};\r\n\n// CONCATENATED MODULE: ./src/index.ts\n\r\n// console.log("hello");\r\n// console.log("hello again");\r\n// console.log("hello again again");\r\nconst src_form = document.querySelector("form");\r\nsrc_form.addEventListener("submit", (e) => {\r\n    e.preventDefault();\r\n    const data = formData(src_form);\r\n    console.log(data);\r\n});\r\nlet person = [];\r\nconsole.log(person.speak());\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvZm9ybXMudHM/NTBiNiIsIndlYnBhY2s6Ly8vLi9zcmMvaW5kZXgudHM/ZmZiNCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQU8sTUFBTSxRQUFRLEdBQUcsQ0FBQyxJQUFxQixFQUFFLEVBQUU7SUFDaEQsTUFBTSxNQUFNLEdBQUcsSUFBSSxDQUFDLGdCQUFnQixDQUFDLE9BQU8sQ0FBQyxDQUFDO0lBQzlDLElBQUksTUFBTSxHQUErQixFQUFFLENBQUM7SUFFNUMsTUFBTSxDQUFDLE9BQU8sQ0FBQyxDQUFDLEtBQUssRUFBRSxFQUFFO1FBQ3ZCLE1BQU0sQ0FBQyxLQUFLLENBQUMsRUFBRSxDQUFDLEdBQUcsS0FBSyxDQUFDLEtBQUssQ0FBQztJQUNqQyxDQUFDLENBQUMsQ0FBQztJQUNILE9BQU8sTUFBTSxDQUFDO0FBQ2hCLENBQUMsQ0FBQzs7O0FDUmlDO0FBRW5DLHdCQUF3QjtBQUN4Qiw4QkFBOEI7QUFDOUIsb0NBQW9DO0FBRXBDLE1BQU0sUUFBSSxHQUFHLFFBQVEsQ0FBQyxhQUFhLENBQUMsTUFBTSxDQUFFLENBQUM7QUFFN0MsUUFBSSxDQUFDLGdCQUFnQixDQUFDLFFBQVEsRUFBRSxDQUFDLENBQUMsRUFBRSxFQUFFO0lBQ3BDLENBQUMsQ0FBQyxjQUFjLEVBQUUsQ0FBQztJQUNuQixNQUFNLElBQUksR0FBRyxRQUFRLENBQUMsUUFBSSxDQUFDLENBQUM7SUFDNUIsT0FBTyxDQUFDLEdBQUcsQ0FBQyxJQUFJLENBQUMsQ0FBQztBQUNwQixDQUFDLENBQUMsQ0FBQztBQUVILElBQUksTUFBTSxHQUFRLEVBQUUsQ0FBQztBQUNyQixPQUFPLENBQUMsR0FBRyxDQUFDLE1BQU0sQ0FBQyxLQUFLLEVBQUUsQ0FBQyxDQUFDIiwiZmlsZSI6IjAuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgZm9ybURhdGEgPSAoZm9ybTogSFRNTEZvcm1FbGVtZW50KSA9PiB7XHJcbiAgY29uc3QgaW5wdXRzID0gZm9ybS5xdWVyeVNlbGVjdG9yQWxsKFwiaW5wdXRcIik7XHJcbiAgbGV0IHZhbHVlczogeyBbcHJvcDogc3RyaW5nXTogc3RyaW5nIH0gPSB7fTtcclxuXHJcbiAgaW5wdXRzLmZvckVhY2goKGlucHV0KSA9PiB7XHJcbiAgICB2YWx1ZXNbaW5wdXQuaWRdID0gaW5wdXQudmFsdWU7XHJcbiAgfSk7XHJcbiAgcmV0dXJuIHZhbHVlcztcclxufTtcclxuIiwiaW1wb3J0IHsgZm9ybURhdGEgfSBmcm9tIFwiLi9mb3Jtc1wiO1xyXG5cclxuLy8gY29uc29sZS5sb2coXCJoZWxsb1wiKTtcclxuLy8gY29uc29sZS5sb2coXCJoZWxsbyBhZ2FpblwiKTtcclxuLy8gY29uc29sZS5sb2coXCJoZWxsbyBhZ2FpbiBhZ2FpblwiKTtcclxuXHJcbmNvbnN0IGZvcm0gPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiZm9ybVwiKSE7XHJcblxyXG5mb3JtLmFkZEV2ZW50TGlzdGVuZXIoXCJzdWJtaXRcIiwgKGUpID0+IHtcclxuICBlLnByZXZlbnREZWZhdWx0KCk7XHJcbiAgY29uc3QgZGF0YSA9IGZvcm1EYXRhKGZvcm0pO1xyXG4gIGNvbnNvbGUubG9nKGRhdGEpO1xyXG59KTtcclxuXHJcbmxldCBwZXJzb246IGFueSA9IFtdO1xyXG5jb25zb2xlLmxvZyhwZXJzb24uc3BlYWsoKSk7XHJcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///0\n')}]);
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/forms.ts":
+/*!**********************!*\
+  !*** ./src/forms.ts ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"formData\": () => (/* binding */ formData)\n/* harmony export */ });\nconst formData = (form) => {\n    const inputs = form.querySelectorAll(\"input\");\n    let values = {};\n    inputs.forEach((input) => {\n        values[input.id] = input.value;\n    });\n    return values;\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvZm9ybXMudHMuanMiLCJtYXBwaW5ncyI6Ijs7OztBQUFPLE1BQU0sUUFBUSxHQUFHLENBQUMsSUFBcUIsRUFBRSxFQUFFO0lBQ2hELE1BQU0sTUFBTSxHQUFHLElBQUksQ0FBQyxnQkFBZ0IsQ0FBQyxPQUFPLENBQUMsQ0FBQztJQUM5QyxJQUFJLE1BQU0sR0FBK0IsRUFBRSxDQUFDO0lBRTVDLE1BQU0sQ0FBQyxPQUFPLENBQUMsQ0FBQyxLQUFLLEVBQUUsRUFBRTtRQUN2QixNQUFNLENBQUMsS0FBSyxDQUFDLEVBQUUsQ0FBQyxHQUFHLEtBQUssQ0FBQyxLQUFLLENBQUM7SUFDakMsQ0FBQyxDQUFDLENBQUM7SUFDSCxPQUFPLE1BQU0sQ0FBQztBQUNoQixDQUFDLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8wMi13ZWJwYWNrLXR5cGVzY3JpcHQvLi9zcmMvZm9ybXMudHM/NTBiNiJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgZm9ybURhdGEgPSAoZm9ybTogSFRNTEZvcm1FbGVtZW50KSA9PiB7XG4gIGNvbnN0IGlucHV0cyA9IGZvcm0ucXVlcnlTZWxlY3RvckFsbChcImlucHV0XCIpO1xuICBsZXQgdmFsdWVzOiB7IFtwcm9wOiBzdHJpbmddOiBzdHJpbmcgfSA9IHt9O1xuXG4gIGlucHV0cy5mb3JFYWNoKChpbnB1dCkgPT4ge1xuICAgIHZhbHVlc1tpbnB1dC5pZF0gPSBpbnB1dC52YWx1ZTtcbiAgfSk7XG4gIHJldHVybiB2YWx1ZXM7XG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/forms.ts\n");
+
+/***/ }),
+
+/***/ "./src/index.ts":
+/*!**********************!*\
+  !*** ./src/index.ts ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _forms__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./forms */ \"./src/forms.ts\");\n\n// console.log(\"hello\");\n// console.log(\"hello again\");\n// console.log(\"hello again again\");\nconst form = document.querySelector(\"form\");\nform.addEventListener(\"submit\", (e) => {\n    e.preventDefault();\n    const data = (0,_forms__WEBPACK_IMPORTED_MODULE_0__.formData)(form);\n    console.log(data);\n});\n// let person: any = [];\n// console.log(person.speak());\n// source maps\n// person.speak is not a function\n// at eval (index.ts?ffb4:16:20)\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXgudHMuanMiLCJtYXBwaW5ncyI6Ijs7QUFBbUM7QUFFbkMsd0JBQXdCO0FBQ3hCLDhCQUE4QjtBQUM5QixvQ0FBb0M7QUFFcEMsTUFBTSxJQUFJLEdBQUcsUUFBUSxDQUFDLGFBQWEsQ0FBQyxNQUFNLENBQUUsQ0FBQztBQUU3QyxJQUFJLENBQUMsZ0JBQWdCLENBQUMsUUFBUSxFQUFFLENBQUMsQ0FBQyxFQUFFLEVBQUU7SUFDcEMsQ0FBQyxDQUFDLGNBQWMsRUFBRSxDQUFDO0lBQ25CLE1BQU0sSUFBSSxHQUFHLGdEQUFRLENBQUMsSUFBSSxDQUFDLENBQUM7SUFDNUIsT0FBTyxDQUFDLEdBQUcsQ0FBQyxJQUFJLENBQUMsQ0FBQztBQUNwQixDQUFDLENBQUMsQ0FBQztBQUVILHdCQUF3QjtBQUN4QiwrQkFBK0I7QUFFL0IsY0FBYztBQUNkLGlDQUFpQztBQUNqQyxnQ0FBZ0MiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8wMi13ZWJwYWNrLXR5cGVzY3JpcHQvLi9zcmMvaW5kZXgudHM/ZmZiNCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBmb3JtRGF0YSB9IGZyb20gXCIuL2Zvcm1zXCI7XG5cbi8vIGNvbnNvbGUubG9nKFwiaGVsbG9cIik7XG4vLyBjb25zb2xlLmxvZyhcImhlbGxvIGFnYWluXCIpO1xuLy8gY29uc29sZS5sb2coXCJoZWxsbyBhZ2FpbiBhZ2FpblwiKTtcblxuY29uc3QgZm9ybSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCJmb3JtXCIpITtcblxuZm9ybS5hZGRFdmVudExpc3RlbmVyKFwic3VibWl0XCIsIChlKSA9PiB7XG4gIGUucHJldmVudERlZmF1bHQoKTtcbiAgY29uc3QgZGF0YSA9IGZvcm1EYXRhKGZvcm0pO1xuICBjb25zb2xlLmxvZyhkYXRhKTtcbn0pO1xuXG4vLyBsZXQgcGVyc29uOiBhbnkgPSBbXTtcbi8vIGNvbnNvbGUubG9nKHBlcnNvbi5zcGVhaygpKTtcblxuLy8gc291cmNlIG1hcHNcbi8vIHBlcnNvbi5zcGVhayBpcyBub3QgYSBmdW5jdGlvblxuLy8gYXQgZXZhbCAoaW5kZXgudHM/ZmZiNDoxNjoyMClcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/index.ts\n");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval-source-map devtool is used.
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.ts");
+/******/ 	
+/******/ })()
+;
