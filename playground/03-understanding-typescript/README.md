@@ -35,4 +35,12 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - working with controllers and parsing request bodies.
 - building a basic REST API with CRUD operations.
 
+### Select & Share a Place App
+
+- setting up Webpack 5 with TypeScript.
+- getting user input.
+- setting up an API key.
+- using Axios to fetch coordinates for an entered address.
+- rendering a map.
+
 Based on [Understanding TypeScript](https://www.udemy.com/course/understanding-typescript/) by Maximilian Schwarzmüller (2021).
