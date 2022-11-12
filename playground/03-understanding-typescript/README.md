@@ -18,6 +18,8 @@ Some small projects to learn all about core types, generics and combine TypeScri
 
 ### Third party libraries and TypeScript
 
+[See 10-third-party-libraries folder](10-third-party-libraries)
+
 - setting up Vite with TypeScript.
 - using JavaScript libraries like Lodash with TypeScript.
 - using `declare` as a "last resort".
@@ -26,8 +28,12 @@ Some small projects to learn all about core types, generics and combine TypeScri
 
 ### Select & Share a Place App
 
+[See 11-select-share-place folder](11-select-share-place)
+
 <p align="center">
-        <img src="06-select-share-place/screenshot.png" style="width:528px;max-width: 100%;">
+        <a href="11-select-share-place">
+                <img src="11-select-share-place/screenshot.png" style="width:528px;max-width: 100%;">
+        </a>
 </p>
 
 - setting up Webpack 5 with TypeScript.
@@ -38,8 +44,12 @@ Some small projects to learn all about core types, generics and combine TypeScri
 
 ### React and TypeScript
 
+[See 12-react-typescript folder](12-react-typescript)
+
 <p align="center">
-        <img src="04-react-typescript/screenshot.png" style="width:528px;max-width: 100%;">
+        <a href="12-react-typescript">
+                <img src="12-react-typescript/screenshot.png" style="width:528px;max-width: 100%;">
+        </a>
 </p>
 
 - setting up a React and TypeScript project.
@@ -51,6 +61,8 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - finding type definitions via NPM for other React libraries.
 
 ### NodeJS / Express and TypeScript
+
+[See 13-node-express-typescript folder](13-node-express-typescript)
 
 - executing TypeScript code with Node.js.
 - setting up a project with Express, Nodemon and TypeScript.
