@@ -12,7 +12,7 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - utilizing function types, unknown and never types.
 - configuring the TypeScript compiler.
 
-# Classes and Interfaces
+### Classes and Interfaces
 
 - creating a class and compiling to JavaScript.
 
