@@ -41,7 +41,9 @@ Some small projects to learn all about core types, generics and combine TypeScri
 
 - discovering built-in generics.
 - creating a generic function.
-- working with constraints.
+- working with constraints like `keyof`.
+- building generic classes.
+- using generic utility types like Partial and Readonly.
 
 ### Third party libraries and TypeScript
 
