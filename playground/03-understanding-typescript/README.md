@@ -45,6 +45,11 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - building generic classes.
 - using generic utility types like Partial and Readonly.
 
+### Decorators
+
+- working with decorator factories.
+- attaching metadata to a class declaration.
+
 ### Third party libraries and TypeScript
 
 [See 10-third-party-libraries folder](10-third-party-libraries)
