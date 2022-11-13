@@ -25,6 +25,10 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - enabling static methods and properties.
 - building abstract classes.
 - creating singletons and using private constructors.
+- using interfaces with classes.
+- extending interfaces and utilizing readonly property.
+- defining interfaces as function types.
+- handling optional parameters and properties.
 
 ### Third party libraries and TypeScript
 
