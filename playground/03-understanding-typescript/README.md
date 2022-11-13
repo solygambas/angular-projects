@@ -30,6 +30,11 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - defining interfaces as function types.
 - handling optional parameters and properties.
 
+### Advanced typing concepts
+
+- using intersection types and type guards.
+- understanding discriminated unions and type casting.
+
 ### Third party libraries and TypeScript
 
 [See 10-third-party-libraries folder](10-third-party-libraries)

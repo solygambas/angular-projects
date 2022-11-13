@@ -1,0 +1,21 @@
+{
+  "name": "understanding-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js-only.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc app.ts --target ES2016 --watch",
+    "start": "lite-server",
+    "init": "tsc --init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
