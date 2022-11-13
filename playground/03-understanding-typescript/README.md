@@ -15,6 +15,11 @@ Some small projects to learn all about core types, generics and combine TypeScri
 ### Classes and Interfaces
 
 - creating a class and compiling to JavaScript.
+- using a constructor function and the `this` keyword.
+- working with private and public access modifiers.
+- initializing a class with a shorthand.
+- defining readonly properties.
+- understanding inheritance.
 
 ### Third party libraries and TypeScript
 
