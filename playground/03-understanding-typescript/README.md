@@ -37,6 +37,12 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - discovering index properties and function overloads.
 - handling external data with optional chaining and nullish coalescing.
 
+### Generics
+
+- discovering built-in generics.
+- creating a generic function.
+- working with constraints.
+
 ### Third party libraries and TypeScript
 
 [See 10-third-party-libraries folder](10-third-party-libraries)
