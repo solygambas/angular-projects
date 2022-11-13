@@ -24,12 +24,12 @@ type Combinable = string | number;
 type Numeric = number | boolean;
 type Universal = Combinable & Numeric;
 
-function addNumbers(a: Combinable, b: Combinable) {
-  if (typeof a === "string" || typeof b === "string") {
-    return a.toString() + b.toString();
-  }
-  return a + b;
-}
+// function addNumbers(a: Combinable, b: Combinable) {
+//   if (typeof a === "string" || typeof b === "string") {
+//     return a.toString() + b.toString();
+//   }
+//   return a + b;
+// }
 
 type UnknownEmployee = Employee | Admin;
 
@@ -114,9 +114,48 @@ const paragraph = document.getElementById(
 
 // const userInput = <HTMLInputElement>document.getElementById("user-input")!;
 // const userInput = document.getElementById("user-input")! as HTMLInputElement;
-const userInput = document.getElementById("user-input");
-if (userInput) {
-  (userInput as HTMLInputElement).value = "Hi there";
-}
+// const userInput = document.getElementById("user-input");
+// if (userInput) {
+//   (userInput as HTMLInputElement).value = "Hi there";
+// }
 
 // console.log(userInput.value);
+
+interface ErrorContainer {
+  [prop: string]: string;
+}
+
+const errorBag: ErrorContainer = {
+  email: "Not a valid email",
+  username: "Must start with a capital character",
+};
+
+function addNumbers(a: number, b: number): number;
+function addNumbers(a: string, b: string): string;
+function addNumbers(a: number, b: string): string;
+function addNumbers(a: string, b: number): string;
+function addNumbers(a: Combinable, b: Combinable) {
+  if (typeof a === "string" || typeof b === "string") {
+    return a.toString() + b.toString();
+  }
+  return a + b;
+}
+
+const result = addNumbers(1, 5);
+const result2 = addNumbers("Max", "Manu");
+const result3 = addNumbers(1, "Manu");
+const result4 = addNumbers("Max", 2);
+
+const fetchedUserData = {
+  id: "u1",
+  name: "Max",
+  job: { title: "CEO", description: "My own company" },
+};
+
+console.log(fetchedUserData?.job?.title);
+
+const userInput = null;
+
+const storedData = userInput ?? "DEFAULT";
+
+console.log(storedData);

@@ -34,6 +34,8 @@ Some small projects to learn all about core types, generics and combine TypeScri
 
 - using intersection types and type guards.
 - understanding discriminated unions and type casting.
+- discovering index properties and function overloads.
+- handling external data with optional chaining and nullish coalescing.
 
 ### Third party libraries and TypeScript
 

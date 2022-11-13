@@ -1,14 +1,9 @@
+var _a;
 const e1 = {
     name: "Max",
     privileges: ["create-server"],
     startDate: new Date(),
 };
-function addNumbers(a, b) {
-    if (typeof a === "string" || typeof b === "string") {
-        return a.toString() + b.toString();
-    }
-    return a + b;
-}
 function printEmployeeInformation(emp) {
     console.log("Name: " + emp.name);
     if ("privileges" in emp) {
@@ -58,11 +53,26 @@ function moveAnimal(animal) {
 // moveAnimal({ type: "horse", runningSpeed: 50 });
 // const paragraph = document.querySelector("p");
 const paragraph = document.getElementById("message-output");
-// console.log(paragraph);
-// const userInput = <HTMLInputElement>document.getElementById("user-input")!;
-// const userInput = document.getElementById("user-input")! as HTMLInputElement;
-const userInput = document.getElementById("user-input");
-if (userInput) {
-    userInput.value = "Hi there";
+const errorBag = {
+    email: "Not a valid email",
+    username: "Must start with a capital character",
+};
+function addNumbers(a, b) {
+    if (typeof a === "string" || typeof b === "string") {
+        return a.toString() + b.toString();
+    }
+    return a + b;
 }
-// console.log(userInput.value);
+const result = addNumbers(1, 5);
+const result2 = addNumbers("Max", "Manu");
+const result3 = addNumbers(1, "Manu");
+const result4 = addNumbers("Max", 2);
+const fetchedUserData = {
+    id: "u1",
+    name: "Max",
+    job: { title: "CEO", description: "My own company" },
+};
+console.log((_a = fetchedUserData === null || fetchedUserData === void 0 ? void 0 : fetchedUserData.job) === null || _a === void 0 ? void 0 : _a.title);
+const userInput = null;
+const storedData = userInput !== null && userInput !== void 0 ? userInput : "DEFAULT";
+console.log(storedData);
