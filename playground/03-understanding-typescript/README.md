@@ -20,6 +20,11 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - initializing a class with a shorthand.
 - defining readonly properties.
 - understanding inheritance.
+- overriding properties and using the protected modifier.
+- implementing getters and setters.
+- enabling static methods and properties.
+- building abstract classes.
+- creating singletons and using private constructors.
 
 ### Third party libraries and TypeScript
 

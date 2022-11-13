@@ -8,5 +8,10 @@
 - initializing a class with a shorthand.
 - defining readonly properties.
 - understanding inheritance.
+- overriding properties and using the protected modifier.
+- implementing getters and setters.
+- enabling static methods and properties.
+- building abstract classes.
+- creating singletons and using private constructors.
 
 Based on [Understanding TypeScript](https://www.udemy.com/course/understanding-typescript/) by Maximilian Schwarzmüller (2021).

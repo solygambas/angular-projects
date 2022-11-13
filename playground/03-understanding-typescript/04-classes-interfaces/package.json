@@ -5,8 +5,9 @@
   "main": "js-only.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "tsc app.ts --watch",
-    "start": "lite-server"
+    "watch": "tsc app.ts --target ES2016 --watch",
+    "start": "lite-server",
+    "init": "tsc --init"
   },
   "keywords": [],
   "author": "",
