@@ -49,6 +49,7 @@ Some small projects to learn all about core types, generics and combine TypeScri
 
 - working with decorator factories.
 - attaching metadata to a class declaration.
+- adding multiple decorators on property, accessor, parameter or method.
 
 ### Third party libraries and TypeScript
 
