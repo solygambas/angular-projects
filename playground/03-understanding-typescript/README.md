@@ -54,6 +54,11 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - creating an autobind decorator.
 - validating data with decorators.
 
+### Drag & Drop Project
+
+- setting up a project.
+- rendering a template and interacting with DOM elements.
+
 ### Third party libraries and TypeScript
 
 [See 10-third-party-libraries folder](10-third-party-libraries)
