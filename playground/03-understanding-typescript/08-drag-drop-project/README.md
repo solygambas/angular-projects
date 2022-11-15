@@ -8,5 +8,6 @@
 - fetching user input.
 - creating a reusable validation functionality.
 - rendering project lists.
+- managing application state with singletons.
 
 Based on [Understanding TypeScript](https://www.udemy.com/course/understanding-typescript/) by Maximilian Schwarzmüller (2021).

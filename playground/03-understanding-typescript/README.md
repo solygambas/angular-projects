@@ -62,6 +62,7 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - fetching user input.
 - creating a reusable validation functionality.
 - rendering project lists.
+- managing application state with singletons.
 
 ### Third party libraries and TypeScript
 
