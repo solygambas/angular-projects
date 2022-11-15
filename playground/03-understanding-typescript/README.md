@@ -60,6 +60,8 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - rendering a template and interacting with DOM elements.
 - creating and using an autobind decorator.
 - fetching user input.
+- creating a reusable validation functionality.
+- rendering project lists.
 
 ### Third party libraries and TypeScript
 

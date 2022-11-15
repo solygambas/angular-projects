@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -38,8 +38,8 @@ textarea:focus {
 
 button {
   font: inherit;
-  background: #ff0062;
-  border: 1px solid #ff0062;
+  background: #2b2d42;
+  border: 1px solid #2b2d42;
   cursor: pointer;
   color: white;
   padding: 0.75rem 1rem;
@@ -51,17 +51,17 @@ button:focus {
 
 button:hover,
 button:active {
-  background: #a80041;
-  border-color: #a80041;
+  background: #3c91e6;
+  border-color: #3c91e6;
 }
 
 .projects {
   margin: 1rem;
-  border: 1px solid #ff0062;
+  border: 1px solid #2b2d42;
 }
 
 .projects header {
-  background: #ff0062;
+  background: #2b2d42;
   height: 3.5rem;
   display: flex;
   justify-content: center;
@@ -69,11 +69,11 @@ button:active {
 }
 
 #finished-projects {
-  border-color: #0044ff;
+  border-color: #8d99ae;
 }
 
 #finished-projects header {
-  background: #0044ff;
+  background: #8d99ae;
 }
 
 .projects h2 {
@@ -94,12 +94,12 @@ button:active {
 }
 
 .projects li h2 {
-  color: #ff0062;
+  color: #2b2d42;
   margin: 0.5rem 0;
 }
 
 #finished-projects li h2 {
-  color: #0044ff;
+  color: #8d99ae;
 }
 
 .projects li h3 {
@@ -122,6 +122,6 @@ button:active {
 #user-input {
   margin: 1rem;
   padding: 1rem;
-  border: 1px solid #ff0062;
+  border: 1px solid #2b2d42;
   background: #f7f7f7;
 }
