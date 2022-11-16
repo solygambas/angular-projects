@@ -82,6 +82,7 @@ Some small projects to learn all about core types, generics and combine TypeScri
 
 - working with namespaces.
 - organizing files and folders.
+- using ES modules.
 
 ### Third party libraries and TypeScript
 

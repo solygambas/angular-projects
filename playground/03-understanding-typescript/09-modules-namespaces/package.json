@@ -5,7 +5,7 @@
   "main": "js-only.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "tsc app.ts --target ES2016 --experimentalDecorators --module amd --outFile ./dist/bundle.js --watch",
+    "watch": "tsc ./src/app.ts --target ES6 --experimentalDecorators --module ES2015 --rootDir ./src  --outDir ./dist --watch",
     "start": "lite-server",
     "init": "tsc --init"
   },
