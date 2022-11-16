@@ -78,6 +78,11 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - handling drag events and reflecting the current state in the UI.
 - adding a droppable area.
 
+### Modules and Namespaces
+
+- working with namespaces.
+- organizing files and folders.
+
 ### Third party libraries and TypeScript
 
 [See 10-third-party-libraries folder](10-third-party-libraries)

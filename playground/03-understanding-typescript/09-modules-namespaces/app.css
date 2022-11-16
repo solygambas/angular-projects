@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  --active-bg-color: #2b2d42;
+  --hover-color: #3c91e6;
+  --active-highlight-color: #e0d8de;
+  --finished-bg-color: #8d99ae;
+  --finished-highlight-color: #d2e4c4;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  font: inherit;
+  padding: 0.2rem 0.4rem;
+  width: 100%;
+  max-width: 30rem;
+  border: 1px solid #ccc;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  background: #f1f1f1;
+}
+
+button {
+  font: inherit;
+  background: var(--active-bg-color);
+  border: 1px solid var(--active-bg-color);
+  cursor: pointer;
+  color: white;
+  padding: 0.75rem 1rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background: var(--hover-color);
+  border-color: var(--hover-color);
+}
+
+.projects {
+  margin: 1rem;
+  border: 1px solid var(--active-bg-color);
+}
+
+.projects header {
+  background: var(--active-bg-color);
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#finished-projects {
+  border-color: var(--finished-bg-color);
+}
+
+#finished-projects header {
+  background: var(--finished-bg-color);
+}
+
+.projects h2 {
+  margin: 0;
+  color: #fff;
+}
+
+.projects ul {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+.projects li {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #fff;
+}
+
+.projects li h2 {
+  color: var(--active-bg-color);
+  margin: 0.5rem 0;
+}
+
+#finished-projects li h2 {
+  color: var(--finished-bg-color);
+}
+
+.projects li h3 {
+  color: #575757;
+  font-size: 1rem;
+}
+
+.project li p {
+  margin: 0;
+}
+
+.droppable {
+  background: var(--active-highlight-color);
+}
+
+#finished-projects .droppable {
+  background: var(--finished-highlight-color);
+}
+
+#user-input {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--active-bg-color);
+  background: #f7f7f7;
+}
