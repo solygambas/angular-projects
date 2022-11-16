@@ -1,5 +1,10 @@
 * {
   box-sizing: border-box;
+  --active-bg-color: #2b2d42;
+  --hover-color: #3c91e6;
+  --active-highlight-color: #e0d8de;
+  --finished-bg-color: #8d99ae;
+  --finished-highlight-color: #d2e4c4;
 }
 
 html {
@@ -33,13 +38,13 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  background: #fff5f9;
+  background: #f1f1f1;
 }
 
 button {
   font: inherit;
-  background: #2b2d42;
-  border: 1px solid #2b2d42;
+  background: var(--active-bg-color);
+  border: 1px solid var(--active-bg-color);
   cursor: pointer;
   color: white;
   padding: 0.75rem 1rem;
@@ -51,17 +56,17 @@ button:focus {
 
 button:hover,
 button:active {
-  background: #3c91e6;
-  border-color: #3c91e6;
+  background: var(--hover-color);
+  border-color: var(--hover-color);
 }
 
 .projects {
   margin: 1rem;
-  border: 1px solid #2b2d42;
+  border: 1px solid var(--active-bg-color);
 }
 
 .projects header {
-  background: #2b2d42;
+  background: var(--active-bg-color);
   height: 3.5rem;
   display: flex;
   justify-content: center;
@@ -69,16 +74,16 @@ button:active {
 }
 
 #finished-projects {
-  border-color: #8d99ae;
+  border-color: var(--finished-bg-color);
 }
 
 #finished-projects header {
-  background: #8d99ae;
+  background: var(--finished-bg-color);
 }
 
 .projects h2 {
   margin: 0;
-  color: white;
+  color: #fff;
 }
 
 .projects ul {
@@ -91,15 +96,16 @@ button:active {
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
   padding: 1rem;
   margin: 1rem;
+  background-color: #fff;
 }
 
 .projects li h2 {
-  color: #2b2d42;
+  color: var(--active-bg-color);
   margin: 0.5rem 0;
 }
 
 #finished-projects li h2 {
-  color: #8d99ae;
+  color: var(--finished-bg-color);
 }
 
 .projects li h3 {
@@ -112,16 +118,16 @@ button:active {
 }
 
 .droppable {
-  background: #ffe3ee;
+  background: var(--active-highlight-color);
 }
 
 #finished-projects .droppable {
-  background: #d6e1ff;
+  background: var(--finished-highlight-color);
 }
 
 #user-input {
   margin: 1rem;
   padding: 1rem;
-  border: 1px solid #2b2d42;
+  border: 1px solid var(--active-bg-color);
   background: #f7f7f7;
 }
