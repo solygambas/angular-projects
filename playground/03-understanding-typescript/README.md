@@ -56,6 +56,8 @@ Some small projects to learn all about core types, generics and combine TypeScri
 
 ### Drag & Drop Project
 
+[See 08-drag-drop-project folder](08-drag-drop-project)
+
 - setting up a project.
 - rendering a template and interacting with DOM elements.
 - creating and using an autobind decorator.
@@ -65,6 +67,7 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - managing application state with singletons.
 - filtering projects with enums.
 - adding inheritance and generics.
+- rendering project items with a class.
 
 ### Third party libraries and TypeScript
 
