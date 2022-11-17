@@ -83,6 +83,11 @@ Some small projects to learn all about core types, generics and combine TypeScri
 - working with namespaces.
 - organizing files and folders.
 - using ES modules.
+- installing Webpack.
+- adding entry and output configuration.
+- adding TypeScript support with ts-loader.
+- adding webpack-dev-server.
+- adding a production workflow.
 
 ### Third party libraries and TypeScript
 
